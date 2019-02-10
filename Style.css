@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+}
+
+body {
+    margin: 0;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+header ul {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header ul li a {
+    padding: 15px;
+    display: black;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+header ul li a:hover,
+.active {
+    background: black;
+
+
+}
+
+form {
+    margin: 50px auto;
+    max-width: 400px;
+    min-height: 300px;
+    box-shadow: 2px -3px 20px 2px black;
+    padding: 15px;
+}
+
+Form .row {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+Form .row input {
+    width: 70%;
+    height: 30px;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+Form .row label {
+    width: 30%;
+}
+
+form.radio {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+
+}
+form .radio input{
+height: 15px;
+width: 15px;
+
+}
+form .radio label{
+    display: flex;
+    width: 15   px;
+}
+form :checkbox{
+margin: 15px 0;
+}
+form .checkbox input{
+    width: 15px;
+    height: 20px;;
+}
